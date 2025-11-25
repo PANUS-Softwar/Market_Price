@@ -1,0 +1,10 @@
+namespace BCN_MauiLearning.Pages.Controls
+{
+    public partial class CategoryChart
+    {
+        public CategoryChart()
+        {
+            InitializeComponent();
+        }
+    }
+}
