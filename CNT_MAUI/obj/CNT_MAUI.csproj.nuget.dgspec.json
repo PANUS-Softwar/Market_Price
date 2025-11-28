@@ -67,18 +67,6 @@
         "net9.0-android35.0": {
           "targetAlias": "net9.0-android",
           "dependencies": {
-            "CommunityToolkit.Maui": {
-              "target": "Package",
-              "version": "[11.1.1, )"
-            },
-            "CommunityToolkit.Mvvm": {
-              "target": "Package",
-              "version": "[8.3.2, )"
-            },
-            "Microsoft.Data.Sqlite.Core": {
-              "target": "Package",
-              "version": "[8.0.8, )"
-            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[9.0.8, )"
@@ -92,14 +80,6 @@
               "target": "Package",
               "version": "[9.0.11, )",
               "autoReferenced": true
-            },
-            "SQLitePCLRaw.bundle_green": {
-              "target": "Package",
-              "version": "[2.1.10, )"
-            },
-            "Syncfusion.Maui.Toolkit": {
-              "target": "Package",
-              "version": "[1.0.6, )"
             }
           },
           "imports": [
@@ -126,18 +106,6 @@
         "net9.0-ios26.0": {
           "targetAlias": "net9.0-ios",
           "dependencies": {
-            "CommunityToolkit.Maui": {
-              "target": "Package",
-              "version": "[11.1.1, )"
-            },
-            "CommunityToolkit.Mvvm": {
-              "target": "Package",
-              "version": "[8.3.2, )"
-            },
-            "Microsoft.Data.Sqlite.Core": {
-              "target": "Package",
-              "version": "[8.0.8, )"
-            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[9.0.8, )"
@@ -151,14 +119,6 @@
               "target": "Package",
               "version": "[9.0.11, )",
               "autoReferenced": true
-            },
-            "SQLitePCLRaw.bundle_green": {
-              "target": "Package",
-              "version": "[2.1.10, )"
-            },
-            "Syncfusion.Maui.Toolkit": {
-              "target": "Package",
-              "version": "[1.0.6, )"
             }
           },
           "imports": [
@@ -185,18 +145,6 @@
         "net9.0-maccatalyst26.0": {
           "targetAlias": "net9.0-maccatalyst",
           "dependencies": {
-            "CommunityToolkit.Maui": {
-              "target": "Package",
-              "version": "[11.1.1, )"
-            },
-            "CommunityToolkit.Mvvm": {
-              "target": "Package",
-              "version": "[8.3.2, )"
-            },
-            "Microsoft.Data.Sqlite.Core": {
-              "target": "Package",
-              "version": "[8.0.8, )"
-            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[9.0.8, )"
@@ -210,14 +158,6 @@
               "target": "Package",
               "version": "[9.0.11, )",
               "autoReferenced": true
-            },
-            "SQLitePCLRaw.bundle_green": {
-              "target": "Package",
-              "version": "[2.1.10, )"
-            },
-            "Syncfusion.Maui.Toolkit": {
-              "target": "Package",
-              "version": "[1.0.6, )"
             }
           },
           "imports": [
@@ -245,18 +185,6 @@
         "net9.0-windows10.0.19041": {
           "targetAlias": "net9.0-windows10.0.19041.0",
           "dependencies": {
-            "CommunityToolkit.Maui": {
-              "target": "Package",
-              "version": "[11.1.1, )"
-            },
-            "CommunityToolkit.Mvvm": {
-              "target": "Package",
-              "version": "[8.3.2, )"
-            },
-            "Microsoft.Data.Sqlite.Core": {
-              "target": "Package",
-              "version": "[8.0.8, )"
-            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[9.0.8, )"
@@ -264,14 +192,6 @@
             "Microsoft.Maui.Controls": {
               "target": "Package",
               "version": "[9.0.111, )"
-            },
-            "SQLitePCLRaw.bundle_green": {
-              "target": "Package",
-              "version": "[2.1.10, )"
-            },
-            "Syncfusion.Maui.Toolkit": {
-              "target": "Package",
-              "version": "[1.0.6, )"
             }
           },
           "imports": [
