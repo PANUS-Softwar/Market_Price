@@ -4516,23 +4516,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tertu\\.nuget\\packages\\": {},
+    "C:\\Users\\karol\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tertu\\source\\repos\\PANUS-Softwar\\Market_Price\\MarketPrice\\MarketPrice.csproj",
+      "projectUniqueName": "C:\\Users\\karol\\source\\repos\\Market_Price\\MarketPrice\\MarketPrice.csproj",
       "projectName": "MarketPrice",
-      "projectPath": "C:\\Users\\Tertu\\source\\repos\\PANUS-Softwar\\Market_Price\\MarketPrice\\MarketPrice.csproj",
-      "packagesPath": "C:\\Users\\tertu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tertu\\source\\repos\\PANUS-Softwar\\Market_Price\\MarketPrice\\obj\\",
+      "projectPath": "C:\\Users\\karol\\source\\repos\\Market_Price\\MarketPrice\\MarketPrice.csproj",
+      "packagesPath": "C:\\Users\\karol\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\karol\\source\\repos\\Market_Price\\MarketPrice\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\tertu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\karol\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
