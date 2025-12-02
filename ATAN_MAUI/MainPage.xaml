@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ATAN_MAUI.MainPage"
+             BackgroundColor="MintCream">
+
+    <Grid RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Image
+                Grid.Row="0"
+                Source="market_image.jpg"
+                Aspect="AspectFill"
+                HorizontalOptions="Fill"
+                VerticalOptions="Fill"
+                />
+
+        <ScrollView Grid.Row="1">
+            <VerticalStackLayout
+                Padding ="30, 20, 30, 0"
+                Spacing="25">
+                <Label
+                   Text="Welcome to Market Price"
+                   Style="{StaticResource Headline}"
+                   SemanticProperties.HeadingLevel="Level1"/>
+
+                <Label
+                    Text="Discover the price and make inform expenditures"
+                    HorizontalTextAlignment="Center"
+                    SemanticProperties.Description="Feel free to discover find out how prices vary over time in the market with our platform"
+                    />
+
+                <Button
+                    x:Name="CounterBtn"
+                    Text="Get Started"
+                    BackgroundColor="DarkOrange"
+                    FontAutoScalingEnabled="True"
+                    TextColor="White"
+                    SemanticProperties.Hint="Directs you to the offer/bid page"
+                    Clicked="OnGetStartedClicked"
+                    HorizontalOptions="Fill"
+                    />
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <Border Grid.Row="2"
+                StrokeThickness="0"
+                BackgroundColor="SandyBrown"
+                Padding="10">
+         <HorizontalStackLayout
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Spacing="8">
+                
+                <Image Source="footer_bran_icon.png"
+                       HeightRequest="40"
+                       WidthRequest="40"
+                       Aspect="AspectFit"/>
+
+                <Label Text=" Powered by TEARN Group"
+                       TextColor="White"
+                       FontSize="14"
+                       VerticalTextAlignment="Center"
+                       />
+         </HorizontalStackLayout>
+       
+         </Border>
+    </Grid>
+</ContentPage>
