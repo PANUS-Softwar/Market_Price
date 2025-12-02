@@ -1,1 +1,47 @@
 .vs/
+
+# Build Folders
+bin/
+obj/
+out/
+
+# MAUI generated resources
+*.xaml.g.cs
+*.xaml.g.hpp
+*.xaml.g.m++
+
+# VS / IDE files
+.vs/
+*.user
+*.userosscache
+*.suo
+
+# Installer packages
+*.msi
+*.msix
+*.appx
+*.appxbundle
+*.apk
+*.aab
+
+# macOS / iOS MAUI items
+*.dSYM/
+*.xcuserdata/
+*.xcuserstate
+*.xcworkspace/
+build/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Generated project cache
+*.cache
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
